@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Advanced Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Quiz App</h1>
+
+    <!-- Category Selection -->
+    <div id="start-screen">
+      <h3>Select Category</h3>
+      <select id="category">
+        <option value="math">Math</option>
+        <option value="gk">General Knowledge</option>
+        <option value="tech">Technology</option>
+        <option value="currentAffairs">Current Affairs</option>
+      </select>
+      <button id="start-btn">Start Quiz</button>
+    </div>
+
+    <!-- Quiz Section -->
+    <div id="quiz" style="display:none;">
+      <div class="progress">
+        <div id="progress-bar"></div>
+      </div>
+      <h2 id="question">Question text</h2>
+      <ul id="answers"></ul>
+      <p id="timer">Time left: <span id="time">15</span>s</p>
+      <button id="next">Next</button>
+    </div>
+
+    <!-- Leaderboard -->
+    <div id="result" style="display:none;"></div>
+
+    <!-- Dark Mode Toggle -->
+    <button id="dark-toggle">🌙 Dark Mode</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
