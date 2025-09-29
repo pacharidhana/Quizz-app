@@ -2,12 +2,10 @@
 
  **Overview**
 
--The Quiz App allows users to:
--Take quizzes on various topics.
+-The Quiz App allows users to:Take quizzes on various topics.
 -Get instant feedback on answers.
 -Track scores and progress.
-
-* It provides a clean, responsive interface and is easy to customize with additional questions.
+-It provides a clean, responsive interface and is easy to customize with additional questions.
 
 **Features**
 
