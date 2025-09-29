@@ -1,4 +1,4 @@
- It is A modern and interactive Quiz Application designed to help users test their knowledge across various topics. Built with HTML, CSS, and JavaScript, this app offers a seamless and engaging experience for learners.
+**Proffesuional quizz app**: It is A modern and interactive Quiz Application designed to help users test their knowledge across various topics. Built with HTML, CSS, and JavaScript, this app offers a seamless and engaging experience for learners.
 
  **Overview**
 
@@ -13,13 +13,19 @@
 **Features**
 
 ✅ Multiple choice questions
+
 ✅ Instant result calculation
+
 ✅ Responsive and mobile-friendly design
+
 ✅ Easy to add or modify questions
+
 ✅ User-friendly interface with smooth transitions
 
 **Technologies Used**
 
 HTML5 – Markup and structure
+
 CSS3 – Styling and layout
+
 JavaScript – Functionality and interactivity
