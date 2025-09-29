@@ -2,43 +2,56 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Advanced Quiz App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Quiz App</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="quiz-container">
-    <h1>Quiz App</h1>
+  <div class="container">
+    <h1>Professional Quiz App</h1>
 
-    <!-- Category Selection -->
-    <div id="start-screen">
-      <h3>Select Category</h3>
-      <select id="category">
-        <option value="math">Math</option>
-        <option value="gk">General Knowledge</option>
-        <option value="tech">Technology</option>
-        <option value="currentAffairs">Current Affairs</option>
+    <!-- Dark/Light Mode -->
+    <button id="theme-toggle">🌙 Dark Mode</button>
+
+    <!-- Home Section -->
+    <div id="home">
+      <h2>Select Category</h2>
+      <button onclick="startQuiz('technical')">Technical Skills</button>
+      <button onclick="startQuiz('aptitude')">Aptitude & Reasoning</button>
+      <button onclick="startQuiz('professional')">Professional Skills</button>
+      <button onclick="startQuiz('domain')">Domain-Specific</button>
+      <button onclick="startQuiz('current')">Current Affairs</button>
+
+      <h3>Select Number of Questions</h3>
+      <select id="question-count">
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="all">All</option>
       </select>
-      <button id="start-btn">Start Quiz</button>
+
+      <h3>Select Timer Mode</h3>
+      <select id="timer-mode">
+        <option value="easy">Easy (45s per Q)</option>
+        <option value="medium" selected>Medium (30s per Q)</option>
+        <option value="hard">Hard (15s per Q)</option>
+      </select>
     </div>
 
     <!-- Quiz Section -->
-    <div id="quiz" style="display:none;">
-      <div class="progress">
-        <div id="progress-bar"></div>
-      </div>
-      <h2 id="question">Question text</h2>
-      <ul id="answers"></ul>
-      <p id="timer">Time left: <span id="time">15</span>s</p>
-      <button id="next">Next</button>
+    <div id="quiz-section" class="hidden">
+      <h2 id="category-title"></h2>
+      <p id="timer">⏱ Time left: 30s</p>
+      <div id="quiz-box"></div>
+      <p id="feedback"></p>
+      <button id="next-btn" onclick="nextQuestion()">Next Question</button>
     </div>
 
-    <!-- Leaderboard -->
-    <div id="result" style="display:none;"></div>
-
-    <!-- Dark Mode Toggle -->
-    <button id="dark-toggle">🌙 Dark Mode</button>
+    <!-- Results -->
+    <div id="result" class="hidden"></div>
+    <button id="restart-btn" class="hidden" onclick="restartQuiz()">Restart Quiz</button>
   </div>
 
   <script src="script.js"></script>
 </body>
 </html>
+
