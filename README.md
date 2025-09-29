@@ -1,18 +1,24 @@
-**Overview**:The Basic Quiz App is a simple web-based application that allows users to take multiple-choice quizzes. It tracks the user’s score and displays the results at the end. This app is built using HTML, CSS, and JavaScript, making it easy to understand and extend.
-__Features__
-* Display multiple-choice questions
-* Show one question at a time
-* Track the user’s score
-* Display results at the end of the quiz
-* Simple and clean user interface
+ It is A modern and interactive Quiz Application designed to help users test their knowledge across various topics. Built with HTML, CSS, and JavaScript, this app offers a seamless and engaging experience for learners.
 
-__Folder Structure__
- ┣ index.html      # Main HTML page
- ┣ style.css       # Styles for the quiz
- ┗ script.js       # JavaScript logic
+ **Overview**
 
-__How to Run__
--Download or clone the repository.
--Open the index.html file in a web browser (Chrome, Firefox, Edge).
--Start answering the quiz questions.
--At the end, your score will be displayed.
+-The Quiz App allows users to:
+-Take quizzes on various topics.
+-Get instant feedback on answers.
+-Track scores and progress.
+
+* It provides a clean, responsive interface and is easy to customize with additional questions.
+
+**Features**
+
+✅ Multiple choice questions
+✅ Instant result calculation
+✅ Responsive and mobile-friendly design
+✅ Easy to add or modify questions
+✅ User-friendly interface with smooth transitions
+
+**Technologies Used**
+
+HTML5 – Markup and structure
+CSS3 – Styling and layout
+JavaScript – Functionality and interactivity
