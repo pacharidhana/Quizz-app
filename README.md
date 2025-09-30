@@ -1,4 +1,4 @@
-**professional Quiz App**: It is A modern and interactive Quiz Application designed to help users test their knowledge across various topics. Built with HTML, CSS, and JavaScript, this app offers a seamless and engaging experience for learners.
+**Smart Online Quiz App**: It is A modern and interactive Quiz Application designed to help users test their knowledge across various topics. Built with HTML, CSS, and JavaScript, this app offers a seamless and engaging experience for learners.
 
  **Overview**
 
